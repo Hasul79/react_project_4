@@ -1,0 +1,53 @@
+
+.btn{
+  position: absolute;
+  top: 350px;
+  left:10px;
+  font-size: 22px;
+  padding: 0 20px;
+   border-radius: 10px;
+  background-color:rgba(46, 5, 5, 0.616);
+  color: rgba(197, 176, 176, 0.39);
+}
+.wrapper{
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background: rgba(83, 8, 8, 0.589);
+  
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    color: black;
+    padding-top: 4rem;
+    
+  }
+  
+  
+  .todo_wrapper{
+    margin-right: 7rem;
+    font-size: 1rem;
+    color:  black;
+    list-style: none;
+  
+  }
+  .todo_item{
+    margin-top: 0.5em;
+    margin-bottom: 0.5rem;
+  
+  }
+  .todo_item > button{
+    margin:0 5px;
+    color:black;
+  }
+  .input {
+    border: 2px solid black;
+    font-size: 22px;
+  }

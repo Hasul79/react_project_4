@@ -1,0 +1,51 @@
+.wrap{
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background: rgba(46, 5, 5, 0.808);
+  
+}
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    color: black;
+    padding-top: 4rem;
+   
+  }
+  .bten{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px;
+    color:rgba(46, 5, 5, 0.616);
+    background-color: rgba(197, 176, 176, 0.39);
+    font-weight: 500;
+}
+  
+  .todo_wrapper{
+    margin-right: 7rem;
+    font-size: 1rem;
+    color:  #585858;
+    list-style: none;
+  
+  }
+  .todo_item{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  
+  }
+  .todo_item > button{
+    margin:0 5px;
+  }
+
+  .input {
+    border: 2px solid black;
+    font-size: 22px;
+  }
